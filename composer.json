@@ -1,0 +1,21 @@
+{
+    "name": "edwindayot/shorty",
+    "description": "A small framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edwin",
+            "email": "dayotedwin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "edwindayot/shorty-framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
